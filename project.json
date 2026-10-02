@@ -1,0 +1,21 @@
+{
+  "id": 126,
+  "title": "Hydroponic Nutrient Station Nutrient Dosing",
+  "repository_slug": "hydroponic-nutrient-station-nutrient-dosing",
+  "category": "Smart Agriculture",
+  "platform": "LoRa + Arduino",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "GSM",
+  "components": [
+    "LoRa module",
+    "EC sensor",
+    "SHT31"
+  ],
+  "scope": "Build a smart agriculture prototype that uses LoRa module, EC sensor, SHT31 to dose nutrients using measured conditions. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Nutrient Dosing demonstration with repeatable test steps",
+  "mode": "closed_loop_control",
+  "entrypoint": "firmware/hydroponic-nutrient-station-nutrient-dosing/hydroponic-nutrient-station-nutrient-dosing.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
